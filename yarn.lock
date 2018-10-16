@@ -2465,6 +2465,14 @@ ember-inflector@^2.0.0:
   dependencies:
     ember-cli-babel "^6.0.0"
 
+ember-let@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/ember-let/-/ember-let-0.7.1.tgz#5faedab2c334e070dcda64eb5fce2d5dc69256e1"
+  integrity sha512-dMz38ui58+UxVZOs1FamCudUkOheFCtqtzIB3Xvgtpd+QRAHUtCPhfCvbbvClvA7wHKPq8vGwPyABDwxSkwyrg==
+  dependencies:
+    ember-cli-babel "^6.6.0"
+    ember-cli-version-checker "^2.1.0"
+
 ember-load-initializers@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/ember-load-initializers/-/ember-load-initializers-1.1.0.tgz#4edacc0f3a14d9f53d241ac3e5561804c8377978"
@@ -2533,14 +2541,13 @@ ember-runtime-enumerable-includes-polyfill@^2.0.0:
     ember-cli-babel "^6.9.0"
     ember-cli-version-checker "^2.1.0"
 
-ember-source@~3.3.0:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-3.3.2.tgz#2cc02893166d6b91ebf091521cd49d6598477a73"
-  integrity sha512-LpU2lGSRyGrV9rqZDNgf2RcNhJ18MPVQKLt2MmrCinEWg+gLdt2ETzZWiZa7CgfA14O+KeIvtES+haujiz+tKw==
+ember-source@~3.1.0:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-3.1.4.tgz#e7e6cd45a0bc695ad9f9efe5fa32b2cfd2071d7a"
+  integrity sha512-m2Wzf/unzOSnj1EzUNBaLrv4RuWpJVoE+VvlXA2CJ4QC4XjUtJEhtTb8QFNsX3+rjmD92uYoMcX5IpAfB2bnfg==
   dependencies:
     broccoli-funnel "^2.0.1"
     broccoli-merge-trees "^2.0.0"
-    chalk "^2.3.0"
     ember-cli-get-component-path-option "^1.0.0"
     ember-cli-is-package-missing "^1.0.0"
     ember-cli-normalize-entity-name "^1.0.0"
@@ -2551,7 +2558,7 @@ ember-source@~3.3.0:
     ember-router-generator "^1.2.3"
     inflection "^1.12.0"
     jquery "^3.3.1"
-    resolve "^1.6.0"
+    resolve "^1.5.0"
 
 ember-welcome-page@^3.0.0:
   version "3.2.0"
@@ -5563,7 +5570,7 @@ resolve@1.5.0:
   dependencies:
     path-parse "^1.0.5"
 
-resolve@^1.3.0, resolve@^1.3.3, resolve@^1.4.0, resolve@^1.5.0, resolve@^1.6.0, resolve@^1.8.1:
+resolve@^1.3.0, resolve@^1.3.3, resolve@^1.4.0, resolve@^1.5.0, resolve@^1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.8.1.tgz#82f1ec19a423ac1fbd080b0bab06ba36e84a7a26"
   integrity sha512-AicPrAC7Qu1JxPCZ9ZgCZlY35QgFnNqc+0LtbRNxnVw4TXvjQ72wnuL9JQcEBgXkI9JM8MsT9kaQoHcpCRJOYA==
